@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    background-color: hsl(212, 45%, 89%);
+    font-size: 15px;
+    font-family: Outfit;
+}
+
+main {
+    background-color: hsl(0, 0%, 100%);
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px darkgray;
+    margin-top: 5vh;
+}
+
+h1 {
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+
+p {
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+}
+
+#qrcode {
+ width: 100%;
+ border-radius: 20px;
+}
