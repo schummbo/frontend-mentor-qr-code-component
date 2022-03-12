@@ -3,20 +3,19 @@ body {
     background-color: hsl(212, 45%, 89%);
     font-size: 15px;
     font-family: Outfit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 main {
     background-color: hsl(0, 0%, 100%);
     width: 300px;
-    margin: 0 auto;
     text-align: center;
     padding: 20px;
     border-radius: 20px;
     box-shadow: 5px 5px 20px darkgray;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 h1 {
